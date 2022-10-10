@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def customer_home(request):
-    return render(request,'customer_template/customerhome.html')
+    return render(request,'customer_template/customer_home.html')
 def change_password(request):
     return render(request,'customer_template/change_password.html')
 def my_order(request):
@@ -12,7 +12,7 @@ def product_details(request):
 def profile(request):
     return render(request,'customer_template/profile.html')  
 def view_cart(request):
-    return render(request,'customer_template/view_cart.html') 
+    return render(request,'customer_template/shopping_cart.html') 
 def master(request):
     return render(request,'customer_template/master.html') 
 
